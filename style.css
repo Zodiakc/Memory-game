@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #223750;
+}
+h1, .score{
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #fff;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, 150px);
+    width: 40%;
+    gap: 5px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color:  #2b585a;
+    padding: 20px;
+    justify-content: center;
+}
+.grid>img{
+    display: block;
+    max-width: 70%;
+    padding: 10px;
+    height: 100px;
+    justify-content: center;
+    justify-self: center;
+    cursor: pointer;
+    border: 3px solid #fff;
+    transition: 0.3s;
+}
+.grid>img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.button{
+    background-color: cornsilk;
+    display: block;
+    padding: 15px 40px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
