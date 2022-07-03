@@ -1,3 +1,3 @@
 
-Demo 
-https://github.com/Zodiakc/Memory-game.git
+Demo
+https://zodiakc.github.io/Memory-game/
