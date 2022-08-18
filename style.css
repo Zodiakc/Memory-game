@@ -24,7 +24,7 @@ h1, .score{
 }
 .grid>img{
     display: block;
-    max-width: 70%;
+    width: 70%;
     padding: 10px;
     height: 100px;
     justify-content: center;
@@ -32,6 +32,8 @@ h1, .score{
     cursor: pointer;
     border: 3px solid #fff;
     transition: 0.3s;
+    object-fit: fill;
+    background-position: center;
 }
 .grid>img:hover{
     transform: scale(1.1);
